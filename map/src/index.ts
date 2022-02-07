@@ -9,4 +9,4 @@ import { CustomMap } from './CustomMap';
 // console.log('user', user);
 // console.log('company', company);
 
-const customMap = new CustomMap();
+const customMap = new CustomMap('map');
