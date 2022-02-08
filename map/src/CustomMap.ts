@@ -1,9 +1,10 @@
-interface Mappable {
+export interface Mappable {
     location: {
         lat: number,
         lon: number,
     },
     markerContent(): string,
+    color: string,
 };
 
 export class CustomMap {
