@@ -2,7 +2,8 @@ interface Mappable {
     location: {
         lat: number,
         lon: number,
-    }
+    },
+    markerContent(): string,
 };
 
 export class CustomMap {
